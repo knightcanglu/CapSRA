@@ -1,5 +1,28 @@
 cff-version: 1.2.0
-title: "CapSRA: LMM-Guided Caption Semantic Retrieval Aggregation for Hateful Meme Detection"
+title: "CapSRA: LMM-guided caption semantic retrieval aggregation for hateful meme detection"
 message: "If you use this repository, please cite the CapSRA paper."
 type: software
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0031320326007466"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Yang
+      given-names: Pengfei
+    - family-names: Yang
+      given-names: Haoyu
+    - family-names: Li
+      given-names: Yili
+    - family-names: Wang
+      given-names: Yong
+    - family-names: Wu
+      given-names: Jin
+    - family-names: Zhang
+      given-names: Kunpeng
+    - family-names: Zhou
+      given-names: Fan
+  title: "CapSRA: LMM-guided caption semantic retrieval aggregation for hateful meme detection"
+  journal: "Pattern Recognition"
+  volume: 179
+  start: 113781
+  year: 2026
+  issn: "0031-3203"

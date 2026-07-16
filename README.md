@@ -165,9 +165,13 @@ python run_capsra.py \
 If you use this repository in your research, please cite the CapSRA paper.
 
 ```bibtex
-@article{capsra2026,
+@article{YANG2026113781,
   title = {CapSRA: LMM-guided caption semantic retrieval aggregation for hateful meme detection},
   journal = {Pattern Recognition},
-  year = {2026}
+  volume = {179},
+  pages = {113781},
+  year = {2026},
+  issn = {0031-3203},
+  author = {Pengfei Yang and Haoyu Yang and Yili Li and Yong Wang and Jin Wu and Kunpeng Zhang and Fan Zhou},
 }
 ```
