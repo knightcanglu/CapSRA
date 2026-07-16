@@ -1,0 +1,5 @@
+cff-version: 1.2.0
+title: "CapSRA: LMM-Guided Caption Semantic Retrieval Aggregation for Hateful Meme Detection"
+message: "If you use this repository, please cite the CapSRA paper."
+type: software
+url: "https://www.sciencedirect.com/science/article/abs/pii/S0031320326007466"

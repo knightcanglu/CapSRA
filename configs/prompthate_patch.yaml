@@ -1,0 +1,14 @@
+experiment: capsra_prompthate_patch
+entry: python run_capsra.py
+
+notes:
+  - Merge baseline_patches/prompthate_capsra_patch into the official PromptHate repository first.
+  - Prepare CapSRA retrieval features and neighbor files from this repository before running the plugin experiment.
+
+args:
+  base_model: prompthate
+  DATASET: mem
+  neighbor_path_train: /path/to/train_neighbors.json
+  feature_path_train: /path/to/train_feats.pt
+  neighbor_path_dev: /path/to/dev_neighbors.json
+  feature_path_dev: /path/to/dev_feats.pt

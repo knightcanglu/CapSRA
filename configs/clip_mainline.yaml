@@ -1,0 +1,28 @@
+experiment: capsra_clip_mainline
+entry: python run_capsra.py
+
+args:
+  base_model: clip
+  data_dir: /path/to/dataset_root
+  image_dir: /path/to/dataset_root/img
+  train_json: /path/to/dataset_root/train_fix.jsonl
+  val_json: /path/to/dataset_root/val_fix.jsonl
+  test_json: /path/to/dataset_root/test_fix.jsonl
+  feature_path_train: outputs/features/train_clip_feats.pt
+  feature_path_val: outputs/features/val_clip_feats.pt
+  feature_path_test: outputs/features/test_clip_feats.pt
+  neighbor_path_train: outputs/neighbors/train_clip_neighbors.json
+  neighbor_path_val: outputs/neighbors/val_clip_neighbors.json
+  neighbor_path_test: outputs/neighbors/test_clip_neighbors.json
+  output_dir: runs/clip_capsra
+  aggregation_type: GAT
+  fusion_type: Gated
+  use_ib: true
+  ib_beta: 1.0e-4
+  ib_dim: 256
+  batch_size: 32
+  epochs: 20
+  lr: 1.0e-4
+  weight_decay: 1.0e-3
+  monitor_metric: auc
+  device: cuda:0

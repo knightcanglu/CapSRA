@@ -1,0 +1,15 @@
+experiment: capsra_procap_patch
+entry: python run_capsra.py
+
+notes:
+  - Merge baseline_patches/procap_capsra_patch into the official Pro-Cap repository first.
+  - Prepare CapSRA retrieval features and neighbor files from this repository before running the plugin experiment.
+
+args:
+  base_model: procap
+  DATASET: mem
+  train_neighbor_path: /path/to/train_neighbors.json
+  train_feature_path: /path/to/train_feats.pt
+  test_neighbor_path: /path/to/test_neighbors.json
+  test_feature_path: /path/to/test_feats.pt
+  main_ib: false

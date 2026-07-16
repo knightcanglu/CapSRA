@@ -1,0 +1,2 @@
+{"id": "sample_001", "img": "sample_001.png", "text": "example meme text for training", "label": 0}
+{"id": "sample_002", "img": "sample_002.png", "text": "another example meme text for training", "label": 1}
