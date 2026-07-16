@@ -12,7 +12,6 @@ This document summarizes the role of each major component in the repository.
 | `README.md` | GitHub landing page for the public release |
 | `CITATION.cff` | Citation metadata for GitHub and downstream users |
 | `pic.png` | Main framework figure used by the README |
-| `CONTRIBUTING.md` | Contribution and maintenance guidelines |
 
 ## Mainline Components
 

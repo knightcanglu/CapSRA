@@ -158,7 +158,6 @@ python run_capsra.py \
 - [Baseline Patch Bundle](./baseline_patches/README.md)
 - [Config Presets](./configs/README.md)
 - [Examples](./examples/README.md)
-- [Contributing](./CONTRIBUTING.md)
 
 ## Citation
 
