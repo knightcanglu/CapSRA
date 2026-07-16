@@ -4,12 +4,14 @@ Thank you for your interest in improving CapSRA.
 
 ## Scope
 
-This repository is organized around two experiment tracks:
+This repository is organized around the CapSRA research workflow, including:
 
-- the unified CapSRA mainline for `clip` and `vilt`
-- patch bundles for `PromptHate` and `Pro-Cap`
+- data preparation and caption generation
+- retrieval construction and neighbor aggregation
+- mainline training and evaluation
+- patch-based integration with external baseline repositories
 
-Please keep contributions aligned with one of these tracks.
+Please keep contributions aligned with the overall CapSRA pipeline and public release quality.
 
 ## Recommended Workflow
 
